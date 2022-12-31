@@ -6,7 +6,9 @@ import './components/List/List.css'
 function Header(){
    return (
       <div className = "Header">
-        Hope you had a productive day!
+        <p>Hope you had a productive day! </p>
+        <br></br>
+        <p className="text"> Please enter your task here: </p>
       </div>
    );
 }
