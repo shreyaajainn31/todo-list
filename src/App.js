@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import TodoList from './components/List/TodoList'
-import './components/List/TodoForm.css'
+import TodoList from './components/TodoList'
+import './components/TodoForm.css'
 
 
 function App() {
