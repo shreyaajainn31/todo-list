@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import ListText from './components/List/TodoList'
-import './components/List/List.css'
+import TodoList from './components/List/TodoList'
+import './components/List/TodoForm.css'
 
 
 function App() {
   return (
     <div className="App">
-     <ListText/>
+     <TodoList/>
     </div>
   );
 }

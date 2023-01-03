@@ -1,9 +1,9 @@
 
 import React from "react";
 import {useState} from "react";
-import List from './TodoForm';
+import TodoForm from './TodoForm';
 
-export default function Todo(){
+export default function Todo({todos, completeTodo}){
     const [edit, setEdit] = useState({
         id:null,
         value: ''
