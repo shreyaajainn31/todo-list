@@ -7,3 +7,21 @@
     margin-left: 40rem;
     margin-top: 5rem;
 }
+.todo-tasks{
+    width: 300px;
+    border: solid red 2px;
+}
+
+.todo-row-complete{
+    margin-left: 42rem;
+    width: 300px;
+    border: solid green ;
+    background-color: greenyellow;
+
+}
+.todo-row{
+    margin-left: 40rem;
+    width: 300px;
+    border: solid purple ;
+    background-color: rgb(255, 122, 20);
+}

@@ -11,7 +11,6 @@ export default function TodoList(){
         }
         const newTodos = [todo, ...todos];
         setTodos(newTodos);
-        console.log(...todos)
     };
 
     const completeTodo = id => {
@@ -28,8 +27,11 @@ export default function TodoList(){
     return (
        <div>
          <h1 className='Header'>Whats the plan for today? </h1>
+
+         <p className="Header"> Legend: </p>
+         <p className="Header"> Green => Complete, Orange => Incomplete </p>
          <TodoForm onSubmit = {addTodo}/>
-         <Todo
+         <Todo className = "todo-tasks"
          todos = {todos}
          completeTodo={completeTodo}
          />
