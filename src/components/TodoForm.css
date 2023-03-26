@@ -38,10 +38,10 @@
     background-color: lightcoral;
   }
 
-  .complete{
+  .completed{
     text-decoration: line-through;
     color: green;
   }
   .not-complete{
-    
+
   }
