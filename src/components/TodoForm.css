@@ -25,3 +25,23 @@
     border: solid purple ;
     background-color: rgb(255, 122, 20);
 }
+.icons i{
+    font-size: 16px;
+}
+
+
+  .forms{
+    text-align: center;
+  }
+
+  .tasks{
+    background-color: lightcoral;
+  }
+
+  .complete{
+    text-decoration: line-through;
+    color: green;
+  }
+  .not-complete{
+    
+  }
