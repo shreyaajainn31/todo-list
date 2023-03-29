@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-## HOW TO RUN THE PROJECT:
+## How to run the project
 
 1. Clone the repository.
 2. Run the command: npm install
